@@ -1,64 +1,65 @@
 /* Fundo geral */
 .root {
-    -fx-background-color: #1e1e1e;
+    -fx-background-color: #f5f5f5; /* Cinza bem claro para o fundo */
     -fx-font-family: "Segoe UI";
     -fx-font-size: 14px;
 }
 
 /* Labels */
 .label {
-    -fx-text-fill: #ffffff;
+    -fx-text-fill: #1e1e1e; /* Texto escuro para dar contraste */
 }
 
 /* TextFields */
 .text-field {
-    -fx-background-color: #2d2d2d;
-    -fx-text-fill: #ffffff;
-    -fx-border-color: #555555;
+    -fx-background-color: #ffffff; /* Fundo branco */
+    -fx-text-fill: #1e1e1e;
+    -fx-border-color: #cccccc; /* Borda cinza clara */
     -fx-border-radius: 4;
     -fx-background-radius: 4;
     -fx-padding: 6 10 6 10;
 }
 
 .text-area {
-    -fx-background-color: #2d2d2d;
-    -fx-text-fill: #ffffff;
-    -fx-border-color: #555555;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1e1e1e;
+    -fx-border-color: #cccccc;
     -fx-border-radius: 4;
     -fx-background-radius: 4;
 }
 
-/* Essa é a parte que remove o fundo branco interno */
+/* Remove o fundo escuro interno da TextArea */
 .text-area .content {
-    -fx-background-color: #2d2d2d;
+    -fx-background-color: #ffffff;
 }
 
 /* ComboBox */
 .combo-box {
-    -fx-background-color: #2d2d2d;
-    -fx-border-color: #ffffff;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
     -fx-border-radius: 4;
 }
+
 /* Texto visível no botão do ComboBox */
 .combo-box .list-cell {
-    -fx-text-fill: #ffffff;
-    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #1e1e1e;
+    -fx-background-color: #ffffff;
 }
 
 /* Dropdown aberto — itens da lista */
 .combo-box-popup .list-cell {
-    -fx-text-fill: #ffffff;
-    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #1e1e1e;
+    -fx-background-color: #ffffff;
 }
 
 .combo-box-popup .list-cell:hover {
-    -fx-background-color: #3d3d3d;
+    -fx-background-color: #e5e5e5; /* Destaque cinza ao passar o mouse */
 }
 
 /* Botão */
 .button {
-    -fx-background-color: #0078d4;
-    -fx-text-fill: #ffffff;
+    -fx-background-color: #0078d4; /* Mantido o azul padrão (estilo Windows/Office) */
+    -fx-text-fill: #ffffff;        /* Texto continua branco para contrastar com o azul */
     -fx-border-radius: 4;
     -fx-background-radius: 4;
     -fx-padding: 8 20 8 20;
@@ -66,5 +67,5 @@
 }
 
 .button:hover {
-    -fx-background-color: #005fa3;
+    -fx-background-color: #106ebe; /* Tom de azul um pouco mais escuro no hover */
 }
