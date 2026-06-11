@@ -1,18 +1,26 @@
 package sistemacustos;
 
+import sistemacustos.Enum.DensidadeEnum;
+
 public class MaterialImpressao {
     private String tipoMaterial;
-    private Enum densidade;
-    private double custo;
+    private DensidadeEnum densidade;
+    private double custoPorGrama;
+    
 
     // Construtor
     public MaterialImpressao(
             String tipoMaterial,
-            Enum densidade,
+            DensidadeEnum densidade,
             double custo) {
         this.tipoMaterial = tipoMaterial;
         this.densidade = densidade;
-        this.custo = custo;
+        this.custoPorGrama = custo;
+    }
+
+    @Override
+    public String toString() {
+        return tipoMaterial;
     }
 
     // Getters And Setters
@@ -24,19 +32,19 @@ public class MaterialImpressao {
         this.tipoMaterial = tipoMaterial;
     }
 
-    public int getDensidade() {
+    public DensidadeEnum getDensidade() {
         return densidade;
     }
 
-    public void setDensidade(int densidade) {
+    public void setDensidade(DensidadeEnum densidade) {
         this.densidade = densidade;
     }
 
-    public double getCusto() {
-        return custo;
+    public double getCustoPorGrama() {
+        return custoPorGrama;
     }
 
-    public void setCusto(double custo) {
-        this.custo = custo;
+    public void setCustoPorGrama(double custoPorGrama) {
+        this.custoPorGrama = custoPorGrama;
     }
 }

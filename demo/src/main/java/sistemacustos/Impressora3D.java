@@ -21,6 +21,11 @@ public class Impressora3D {
         this.descricao = descricao;
     }
 
+    @Override
+    public String toString() {
+        return modelo;
+    }
+
     // Getters and Setters
     public String getModelo() {
         return modelo;

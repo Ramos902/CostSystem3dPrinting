@@ -1,0 +1,70 @@
+/* Fundo geral */
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #ffffff;
+}
+
+/* TextFields */
+.text-field {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555555;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 6 10 6 10;
+}
+
+.text-area {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555555;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+/* Essa é a parte que remove o fundo branco interno */
+.text-area .content {
+    -fx-background-color: #2d2d2d;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #2d2d2d;
+    -fx-border-color: #ffffff;
+    -fx-border-radius: 4;
+}
+/* Texto visível no botão do ComboBox */
+.combo-box .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2d2d2d;
+}
+
+/* Dropdown aberto — itens da lista */
+.combo-box-popup .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2d2d2d;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #3d3d3d;
+}
+
+/* Botão */
+.button {
+    -fx-background-color: #0078d4;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005fa3;
+}
