@@ -22,6 +22,20 @@ Sistema de cálculo de custos para impressões 3D, desenvolvido como trabalho co
 - Paradigma orientado a objetos
 
 ## Autores
- 
-**João Pedro Ramos Moraes**  
-[GitHub](https://github.com/ramos902) · [Portfólio](https://ramos902.github.io/portfolio/)
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Ramos902">
+        <img src="https://github.com/Ramos902.png" width="80" height="80" style="border-radius:50%"/><br>
+        <sub><b>João Pedro</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/FernandoNino38">
+        <img src="https://github.com/FernandoNino38.png" width="80" height="80" style="border-radius:50%"/><br>
+        <sub><b>Fernando</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
